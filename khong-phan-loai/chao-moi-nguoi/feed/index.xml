@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Các phản hồi luận về: Chào tất cả mọi người!	</title>
+	<atom:link href="http://localhost/myproject/wordpress/khong-phan-loai/chao-moi-nguoi/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/</link>
+	<description></description>
+	<lastBuildDate>Sat, 05 Jun 2021 04:16:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		Bởi: tran Thinh		</title>
+		<link>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comment-12</link>
+
+		<dc:creator><![CDATA[tran Thinh]]></dc:creator>
+		<pubDate>Sat, 05 Jun 2021 04:16:08 +0000</pubDate>
+		<guid isPermaLink="false">/https://thinhtran-ui.github.io/thinhtran/?p=1#comment-12</guid>
+
+					<description><![CDATA[spam]]></description>
+			<content:encoded><![CDATA[<p>spam</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Bởi: Trần Quốc Thịnh		</title>
+		<link>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comment-11</link>
+
+		<dc:creator><![CDATA[Trần Quốc Thịnh]]></dc:creator>
+		<pubDate>Sat, 22 May 2021 03:09:54 +0000</pubDate>
+		<guid isPermaLink="false">/https://thinhtran-ui.github.io/thinhtran/?p=1#comment-11</guid>
+
+					<description><![CDATA[thinh]]></description>
+			<content:encoded><![CDATA[<p>thinh</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Bởi: Một người bình luận WordPress		</title>
+		<link>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comment-10</link>
+
+		<dc:creator><![CDATA[Một người bình luận WordPress]]></dc:creator>
+		<pubDate>Sat, 15 May 2021 03:42:16 +0000</pubDate>
+		<guid isPermaLink="false">/https://thinhtran-ui.github.io/thinhtran/?p=1#comment-10</guid>
+
+					<description><![CDATA[Xin chào, đây là một bình luận
+Để bắt đầu với quản trị bình luận, chỉnh sửa hoặc xóa bình luận, vui lòng truy cập vào khu vực Bình luận trong trang quản trị.
+Avatar của người bình luận sử dụng &lt;a href=&quot;https://gravatar.com&quot;/ rel=&quot;nofollow ugc&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
+			<content:encoded><![CDATA[<p>Xin chào, đây là một bình luận<br />
+Để bắt đầu với quản trị bình luận, chỉnh sửa hoặc xóa bình luận, vui lòng truy cập vào khu vực Bình luận trong trang quản trị.<br />
+Avatar của người bình luận sử dụng <a href="https://gravatar.com/" rel="nofollow ugc">Gravatar</a>.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
