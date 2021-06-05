@@ -10,7 +10,7 @@
 <channel>
 	<title>Chưa phân loại &#8211;  Technology</title>
 	<atom:link href="http://localhost/myproject/wordpress/category/khong-phan-loai/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://thinhtran-ui.github.io/thinhtran</link>
+	<link>https://thinhtran-ui.github.io/thinhtran</link>
 	<description></description>
 	<lastBuildDate>Sat, 15 May 2021 03:42:16 +0000</lastBuildDate>
 	<language>vi</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>Chào tất cả mọi người!</title>
-		<link>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/</link>
-					<comments>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comments</comments>
+		<link>https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/</link>
+					<comments>https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comments</comments>
 		
 		<dc:creator><![CDATA[Trần Quốc Thịnh]]></dc:creator>
 		<pubDate>Sat, 15 May 2021 03:42:16 +0000</pubDate>
 				<category><![CDATA[Chưa phân loại]]></category>
-		<guid isPermaLink="false">/https://thinhtran-ui.github.io/thinhtran/?p=1</guid>
+		<guid isPermaLink="false">https://thinhtran-ui.github.io/thinhtran/?p=1</guid>
 
 					<description><![CDATA[Cảm ơn vì đã sử dụng WordPress. Đây là bài viết đầu tiên của bạn. Sửa hoặc xóa nó, và bắt đầu bài viết của bạn nhé!]]></description>
 										<content:encoded><![CDATA[
 <p>Cảm ơn vì đã sử dụng WordPress. Đây là bài viết đầu tiên của bạn. Sửa  hoặc xóa nó, và bắt đầu bài viết của bạn nhé!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/feed/</wfw:commentRss>
+					<wfw:commentRss>https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/feed/</wfw:commentRss>
 			<slash:comments>3</slash:comments>
 		
 		
