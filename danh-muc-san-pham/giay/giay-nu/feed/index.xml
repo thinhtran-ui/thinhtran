@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>Sản phẩm &#8211;  Technology</title>
-	<atom:link href="http://localhost/myproject/wordpress/cua-hang/feed/" rel="self" type="application/rss+xml" />
+	<title>Giày nữ &#8211;  Technology</title>
+	<atom:link href="http://localhost/myproject/wordpress/danh-muc-san-pham/giay/giay-nu/feed/" rel="self" type="application/rss+xml" />
 	<link>https://thinhtran-ui.github.io/thinhtran</link>
 	<description>Quoc Thinh</description>
 	<lastBuildDate>Sat, 19 Jun 2021 07:03:06 +0000</lastBuildDate>
