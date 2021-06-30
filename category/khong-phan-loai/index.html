@@ -31,11 +31,161 @@ img.emoji {
 <link rel="stylesheet" id="wp-block-library-css" href="https://thinhtran-ui.github.io/thinhtran/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-vendors-style-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.1.0" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-style-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.1.0" type="text/css" media="all">
+<link rel="stylesheet" id="gdm-gutenberg-block-backend-js-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/google-drive-embedder/css/gdm-blocks.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-layout-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.4.1" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.4.1" type="text/css" media="only screen and (max-width: 768px)">
 <link rel="stylesheet" id="woocommerce-general-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.4.1" type="text/css" media="all">
 <style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
 <link rel="stylesheet" id="shoppingcart-style-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/style.css?ver=5.7.2" type="text/css" media="all">
+<style id="shoppingcart-style-inline-css" type="text/css">/* Nav, links and hover */
+
+		a,
+		#site-title a,
+		ul li a:hover,
+		ol li a:hover,
+		.main-navigation a:hover, /* Navigation */
+		.main-navigation ul li.current-menu-item a,
+		.main-navigation ul li.current_page_ancestor a,
+		.main-navigation ul li.current-menu-ancestor a,
+		.main-navigation ul li.current_page_item a,
+		.main-navigation ul li:hover > a,
+		.main-navigation li.current-menu-ancestor.menu-item-has-children > a:after,
+		.main-navigation li.current-menu-item.menu-item-has-children > a:after,
+		.main-navigation ul li:hover > a:after,
+		.main-navigation li.menu-item-has-children > a:hover:after,
+		.main-navigation li.page_item_has_children > a:hover:after,
+		.main-navigation ul li ul li a:hover,
+		.main-navigation ul li ul li:hover > a,
+		.main-navigation ul li.current-menu-item ul li a:hover,
+		.side-menu-wrap .side-nav-wrap a:hover, /* Side Menu */
+		.top-bar .top-bar-menu a:hover,
+		.entry-title a:hover, /* Post */--
+		.entry-title a:focus,
+		.entry-title a:active,
+		.entry-meta a:hover,
+		.image-navigation .nav-links a,
+		.widget ul li a:hover, /* Widgets */
+		.widget-title a:hover,
+		.widget_contact ul li a:hover,
+		.site-info .copyright a:hover, /* Footer */
+		#colophon .widget ul li a:hover,
+		.gutenberg .entry-meta .author a {
+			color: #4104f7;
+		}
+
+		.main-navigation ul li ul,
+		#search-box input[type="search"] {
+			border-color: #4104f7;
+		}
+
+		#search-box .woocommerce-product-search button[type="submit"] {
+			background-color: #4104f7;
+		}
+
+		/* Webkit */
+		::selection {
+			background: #4104f7;
+			color: #fff;
+		}
+
+		/* Gecko/Mozilla */
+		::-moz-selection {
+			background: #4104f7;
+			color: #fff;
+		}
+
+		/* Accessibility
+		================================================== */
+		.screen-reader-text:hover,
+		.screen-reader-text:active,
+		.screen-reader-text:focus {
+			background-color: #f1f1f1;
+			color: #4104f7;
+		}
+
+		/* Default Buttons
+		================================================== */
+		input[type="reset"],/* Forms  */
+		input[type="button"],
+		input[type="submit"],
+		.btn-default,
+		.main-slider .flex-control-nav a.flex-active,
+		.main-slider .flex-control-nav a:hover,
+		.go-to-top .icon-bg,
+		.search-submit,
+		.vivid-red {
+			background-color: #4104f7;
+		}
+
+		/* #bbpress
+		================================================== */
+		#bbpress-forums .bbp-topics a:hover {
+			color: #4104f7;
+		}
+
+		.bbp-submit-wrapper button.submit {
+			background-color: #4104f7;
+			border: 1px solid #4104f7;
+		}
+
+		/* Woocommerce
+		================================================== */
+		.woocommerce #respond input#submit,
+		.woocommerce a.button, 
+		.woocommerce button.button, 
+		.woocommerce input.button,
+		.woocommerce #respond input#submit.alt,
+		.woocommerce a.button.alt, 
+		.woocommerce button.button.alt, 
+		.woocommerce input.button.alt,
+		.woocommerce span.onsale,
+		.woocommerce-demo-store p.demo_store,
+		.wl-counter,
+		.header-right .cart-value,
+		.archive.woocommerce span.onsale:before,
+		.woocommerce ul.products li.product .button:hover,
+		.woocommerce .woocommerce-product-search button[type="submit"],
+		.woocommerce button.button.alt.disabled, 
+		.woocommerce button.button.alt.disabled:hover {
+			background-color: #4104f7;
+		}
+
+		.woocommerce .woocommerce-message:before,
+		.woocommerce ul.products li.product .price ins,
+		.product_list_widget ins,
+		.price_slider_amount .price_label,
+		.woocommerce div.product .out-of-stock {
+			color: #4104f7;
+		}
+
+		.woocommerce ul.products li.product .button:hover,
+		.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+			border-color: #4104f7;
+		}
+
+		/* Catalog Menu
+		================================================== */
+		.catalog-slider-promotion-wrap .catalog-menu .title-highlight > a:after,
+		.catalog-menu > ul > li:after {
+			background-color: #4104f7;
+		}
+
+		.catalog-menu a:hover {
+			color: #4104f7;
+		}
+
+		/* ShoppingCart Widgets
+		================================================== */
+
+		.shoppingcart-grid-product .product-item-action .button:hover,
+		.shoppingcart-grid-product .product-item-action .product_add_to_wishlist:hover,
+		.sc-grid-product-img .onsale:before {
+			background-color: #4104f7;
+		}
+
+		.woocommerce-Price-amount.amount {
+			color: #4104f7;
+		}</style>
 <link rel="stylesheet" id="font-awesome-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
 <link rel="stylesheet" id="shoppingcart-responsive-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/css/responsive.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="shoppingcart-google-fonts-css" href="//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400i%2C500%2C600%2C700&#038;ver=5.7.2" type="text/css" media="all">
@@ -53,8 +203,9 @@ img.emoji {
 	<meta name="viewport" content="width=device-width">
 		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-</head>
-<body class="archive category category-khong-phan-loai category-1 wp-embed-responsive theme-shoppingcart woocommerce-no-js  elementor-default elementor-kit-676">
+<style type="text/css" id="custom-background-css">body.custom-background { background-color: #ffffff; }</style>
+	</head>
+<body class="archive category category-khong-phan-loai category-1 custom-background wp-embed-responsive theme-shoppingcart woocommerce-no-js  elementor-default elementor-kit-676">
 	<div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#site-content-contain">Skip to content</a>
 <!-- Masthead ============================================= -->
@@ -122,6 +273,12 @@ img.emoji {
 <!-- end #site-branding -->
 
 							
+								<button class="show-menu-toggle" type="button">	
+								<span class="bars"></span>		
+									<span class="sn-text">Tất cả sản phẩm</span>
+								</button>
+
+						
 							<nav id="site-navigation" class="main-navigation clearfix" role="navigation" aria-label="Main Menu">
 														
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
@@ -159,6 +316,30 @@ img.emoji {
 					</div> <!-- end .main-header -->
 				</div> <!-- end .wrap -->
 					</div> <!-- end #sticky-header -->
+											<div class="header-catalog-menu-wrap">
+
+									<div class="catalog-menu-box">
+			<div class="catalog-menu-wrap">
+				<button class="hide-menu-toggle" type="button">
+					<span class="screen-reader-text">Catalog Menu</span>
+					<span class="bars"></span>
+				</button>
+				<nav class="catalog-menu" role="navigation" aria-label="Catalog Menu">
+				<div class="catalog-menu">
+					<h3 class="catalog-menu-title">Tất cả sản phẩm</h3>
+					<ul class="cat-nav-menu">
+<li id="menu-item-1044" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1044"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/giay-nam/">Giày nam</a></li>
+<li id="menu-item-1040" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1040"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/giay-nu/">Giày nữ</a></li>
+<li id="menu-item-1039" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1039"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/nike/">Nike</a></li>
+<li id="menu-item-1045" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1045"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/adidas/">Adidas</a></li>
+<li id="menu-item-1046" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1046"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/bitis/">Bitis</a></li>
+</ul>
+				 <!-- end .catalog-menu -->
+			</div> <!-- end .catalog-menu-wrap -->
+		</nav>
+</div> <!-- end .catalog-menu-box -->
+
+						</div> <!-- end .header-catalog-menu-wrap -->
 					
 				</div>
 				<!-- end .top-header -->
@@ -168,7 +349,7 @@ img.emoji {
 	
 
 	<!-- Main Slider ============================================= -->
-	</header> <!-- end #masthead -->
+	 <!-- end #masthead -->
 
 <!-- Main Page Start ============================================= -->
 <div id="site-content-contain" class="site-content-contain">
@@ -216,40 +397,7 @@ img.emoji {
 	</div> <!-- #primary -->
 
 <aside id="secondary" class="widget-area" role="complementary" aria-label="Secondary">
-    <aside id="search-8" class="widget widget_search"><form class="search-form" action="https://thinhtran-ui.github.io/thinhtran/" method="get" role="search">
-		<label class="screen-reader-text">Search &hellip;</label>
-	<input type="search" name="s" class="search-field" placeholder="Search &hellip;" autocomplete="off">
-	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
-</form> <!-- end .search-form --></aside>
-		<aside id="recent-posts-5" class="widget widget_recent_entries">
-		<h2 class="widget-title">Bài viết mới</h2>
-		<ul>
-											<li>
-					<a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-									</li>
-											<li>
-					<a href="https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/" aria-current="page">Chào tất cả mọi người!</a>
-									</li>
-					</ul>
-
-		</aside><aside id="recent-comments-6" class="widget widget_recent_comments"><h2 class="widget-title">Phản hồi gần đây</h2>
-<ul id="recentcomments">
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-16">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comment-12">Chào tất cả mọi người!</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-15">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link"><a href="https://thinhtran-ui.github.io/thinhtran" rel="external nofollow ugc" class="url">Trần Quốc Thịnh</a></span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-14">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-13">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-</ul></aside><aside id="nav_menu-5" class="widget widget_nav_menu"><h2 class="widget-title">Chuyên mục</h2></aside></aside><!-- end #secondary -->
+    </aside><!-- end #secondary -->
 </div>
 <!-- end .wrap -->
 </div>
@@ -311,11 +459,13 @@ var wc_cart_fragments_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/ad
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/js/jquery.flexslider-min.js?ver=5.7.2" id="jquery-flexslider-js"></script>
 <script type="text/javascript" id="shoppingcart-slider-js-extra">
 /* <![CDATA[ */
-var shoppingcart_slider_value = {"shoppingcart_animation_effect":"fade","shoppingcart_slideshowSpeed":"5000","shoppingcart_animationSpeed":"700"};
+var shoppingcart_slider_value = {"shoppingcart_animation_effect":"slide","shoppingcart_slideshowSpeed":"5000","shoppingcart_animationSpeed":"700"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/js/flexslider-setting.js?ver=5.7.2" id="shoppingcart-slider-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/js/skip-link-focus-fix.js?ver=5.7.2" id="shoppingcart-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
+</header>
+</div>
 </body>
 </html>

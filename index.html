@@ -30,11 +30,161 @@ img.emoji {
 <link rel="stylesheet" id="wp-block-library-css" href="https://thinhtran-ui.github.io/thinhtran/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-vendors-style-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.1.0" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-style-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.1.0" type="text/css" media="all">
+<link rel="stylesheet" id="gdm-gutenberg-block-backend-js-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/google-drive-embedder/css/gdm-blocks.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-layout-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.4.1" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.4.1" type="text/css" media="only screen and (max-width: 768px)">
 <link rel="stylesheet" id="woocommerce-general-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.4.1" type="text/css" media="all">
 <style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
 <link rel="stylesheet" id="shoppingcart-style-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/style.css?ver=5.7.2" type="text/css" media="all">
+<style id="shoppingcart-style-inline-css" type="text/css">/* Nav, links and hover */
+
+		a,
+		#site-title a,
+		ul li a:hover,
+		ol li a:hover,
+		.main-navigation a:hover, /* Navigation */
+		.main-navigation ul li.current-menu-item a,
+		.main-navigation ul li.current_page_ancestor a,
+		.main-navigation ul li.current-menu-ancestor a,
+		.main-navigation ul li.current_page_item a,
+		.main-navigation ul li:hover > a,
+		.main-navigation li.current-menu-ancestor.menu-item-has-children > a:after,
+		.main-navigation li.current-menu-item.menu-item-has-children > a:after,
+		.main-navigation ul li:hover > a:after,
+		.main-navigation li.menu-item-has-children > a:hover:after,
+		.main-navigation li.page_item_has_children > a:hover:after,
+		.main-navigation ul li ul li a:hover,
+		.main-navigation ul li ul li:hover > a,
+		.main-navigation ul li.current-menu-item ul li a:hover,
+		.side-menu-wrap .side-nav-wrap a:hover, /* Side Menu */
+		.top-bar .top-bar-menu a:hover,
+		.entry-title a:hover, /* Post */--
+		.entry-title a:focus,
+		.entry-title a:active,
+		.entry-meta a:hover,
+		.image-navigation .nav-links a,
+		.widget ul li a:hover, /* Widgets */
+		.widget-title a:hover,
+		.widget_contact ul li a:hover,
+		.site-info .copyright a:hover, /* Footer */
+		#colophon .widget ul li a:hover,
+		.gutenberg .entry-meta .author a {
+			color: #4104f7;
+		}
+
+		.main-navigation ul li ul,
+		#search-box input[type="search"] {
+			border-color: #4104f7;
+		}
+
+		#search-box .woocommerce-product-search button[type="submit"] {
+			background-color: #4104f7;
+		}
+
+		/* Webkit */
+		::selection {
+			background: #4104f7;
+			color: #fff;
+		}
+
+		/* Gecko/Mozilla */
+		::-moz-selection {
+			background: #4104f7;
+			color: #fff;
+		}
+
+		/* Accessibility
+		================================================== */
+		.screen-reader-text:hover,
+		.screen-reader-text:active,
+		.screen-reader-text:focus {
+			background-color: #f1f1f1;
+			color: #4104f7;
+		}
+
+		/* Default Buttons
+		================================================== */
+		input[type="reset"],/* Forms  */
+		input[type="button"],
+		input[type="submit"],
+		.btn-default,
+		.main-slider .flex-control-nav a.flex-active,
+		.main-slider .flex-control-nav a:hover,
+		.go-to-top .icon-bg,
+		.search-submit,
+		.vivid-red {
+			background-color: #4104f7;
+		}
+
+		/* #bbpress
+		================================================== */
+		#bbpress-forums .bbp-topics a:hover {
+			color: #4104f7;
+		}
+
+		.bbp-submit-wrapper button.submit {
+			background-color: #4104f7;
+			border: 1px solid #4104f7;
+		}
+
+		/* Woocommerce
+		================================================== */
+		.woocommerce #respond input#submit,
+		.woocommerce a.button, 
+		.woocommerce button.button, 
+		.woocommerce input.button,
+		.woocommerce #respond input#submit.alt,
+		.woocommerce a.button.alt, 
+		.woocommerce button.button.alt, 
+		.woocommerce input.button.alt,
+		.woocommerce span.onsale,
+		.woocommerce-demo-store p.demo_store,
+		.wl-counter,
+		.header-right .cart-value,
+		.archive.woocommerce span.onsale:before,
+		.woocommerce ul.products li.product .button:hover,
+		.woocommerce .woocommerce-product-search button[type="submit"],
+		.woocommerce button.button.alt.disabled, 
+		.woocommerce button.button.alt.disabled:hover {
+			background-color: #4104f7;
+		}
+
+		.woocommerce .woocommerce-message:before,
+		.woocommerce ul.products li.product .price ins,
+		.product_list_widget ins,
+		.price_slider_amount .price_label,
+		.woocommerce div.product .out-of-stock {
+			color: #4104f7;
+		}
+
+		.woocommerce ul.products li.product .button:hover,
+		.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+			border-color: #4104f7;
+		}
+
+		/* Catalog Menu
+		================================================== */
+		.catalog-slider-promotion-wrap .catalog-menu .title-highlight > a:after,
+		.catalog-menu > ul > li:after {
+			background-color: #4104f7;
+		}
+
+		.catalog-menu a:hover {
+			color: #4104f7;
+		}
+
+		/* ShoppingCart Widgets
+		================================================== */
+
+		.shoppingcart-grid-product .product-item-action .button:hover,
+		.shoppingcart-grid-product .product-item-action .product_add_to_wishlist:hover,
+		.sc-grid-product-img .onsale:before {
+			background-color: #4104f7;
+		}
+
+		.woocommerce-Price-amount.amount {
+			color: #4104f7;
+		}</style>
 <link rel="stylesheet" id="font-awesome-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
 <link rel="stylesheet" id="shoppingcart-responsive-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/css/responsive.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="shoppingcart-google-fonts-css" href="//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400i%2C500%2C600%2C700&#038;ver=5.7.2" type="text/css" media="all">
@@ -43,6 +193,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-frontend-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.2.5" type="text/css" media="all">
 <style id="elementor-frontend-inline-css" type="text/css">@font-face{font-family:eicons;src:url(https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}</style>
 <link rel="stylesheet" id="elementor-post-676-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/elementor/css/post-676.css?ver=1624676438" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.2.1" type="text/css" media="all">
 <link rel="stylesheet" id="font-awesome-5-all-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.2.5" type="text/css" media="all">
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.2.5" type="text/css" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;subset=vietnamese&#038;ver=5.7.2" type="text/css" media="all">
@@ -65,8 +216,9 @@ img.emoji {
 	<meta name="viewport" content="width=device-width">
 		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-</head>
-<body class="home page-template-default page page-id-768 wp-embed-responsive theme-shoppingcart woocommerce-no-js  elementor-default elementor-kit-676 elementor-page elementor-page-768">
+<style type="text/css" id="custom-background-css">body.custom-background { background-color: #ffffff; }</style>
+	</head>
+<body class="home page-template-default page page-id-768 custom-background wp-embed-responsive theme-shoppingcart woocommerce-no-js  elementor-default elementor-kit-676 elementor-page elementor-page-768">
 	<div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#site-content-contain">Skip to content</a>
 <!-- Masthead ============================================= -->
@@ -135,6 +287,12 @@ img.emoji {
 <!-- end #site-branding -->
 
 							
+								<button class="show-menu-toggle" type="button">	
+								<span class="bars"></span>		
+									<span class="sn-text">Tất cả sản phẩm</span>
+								</button>
+
+						
 							<nav id="site-navigation" class="main-navigation clearfix" role="navigation" aria-label="Main Menu">
 														
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
@@ -172,6 +330,30 @@ img.emoji {
 					</div> <!-- end .main-header -->
 				</div> <!-- end .wrap -->
 					</div> <!-- end #sticky-header -->
+											<div class="header-catalog-menu-wrap">
+
+									<div class="catalog-menu-box">
+			<div class="catalog-menu-wrap">
+				<button class="hide-menu-toggle" type="button">
+					<span class="screen-reader-text">Catalog Menu</span>
+					<span class="bars"></span>
+				</button>
+				<nav class="catalog-menu" role="navigation" aria-label="Catalog Menu">
+				<div class="catalog-menu">
+					<h3 class="catalog-menu-title">Tất cả sản phẩm</h3>
+					<ul class="cat-nav-menu">
+<li id="menu-item-1044" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1044"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/giay-nam/">Giày nam</a></li>
+<li id="menu-item-1040" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1040"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/giay-nu/">Giày nữ</a></li>
+<li id="menu-item-1039" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1039"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/nike/">Nike</a></li>
+<li id="menu-item-1045" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1045"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/adidas/">Adidas</a></li>
+<li id="menu-item-1046" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1046"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/bitis/">Bitis</a></li>
+</ul>
+				 <!-- end .catalog-menu -->
+			</div> <!-- end .catalog-menu-wrap -->
+		</nav>
+</div> <!-- end .catalog-menu-box -->
+
+						</div> <!-- end .header-catalog-menu-wrap -->
 					
 				</div>
 				<!-- end .top-header -->
@@ -179,20 +361,86 @@ img.emoji {
 	</div> <!-- end .header-wrap -->
 
 	
+		<div class="advertisement-banner-one">
+			<div class="ad-banner-one-wrap">
+
+				<div id="media_image-3" class="ad-banner-one-img widget_media_image"><img width="1920" height="640" src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1.jpg" class="image wp-image-1065  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1.jpg 1920w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1-600x200.jpg 600w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1-300x100.jpg 300w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1-1024x341.jpg 1024w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1-768x256.jpg 768w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/02b1e675169841.5c45aa98293e1-1536x512.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px"></div>
+			</div>
+		</div> <!-- end .advertisement-banner-one -->
+	
 
 	<!-- Main Slider ============================================= -->
 	<div class="catalog-slider-promotion-box clearfix">
 			 	<div class="catalog-slider-promotion-wrap">
-			 	<div class="catalog-slider-promotion-inner">
+			 	<div class="catalog-slider-promotion-inner">		<div class="catalog-menu-box">
+			<div class="catalog-menu-wrap">
+				<button class="hide-menu-toggle" type="button">
+					<span class="screen-reader-text">Catalog Menu</span>
+					<span class="bars"></span>
+				</button>
+				<nav class="catalog-menu" role="navigation" aria-label="Catalog Menu">
+				<div class="catalog-menu">
+					<h3 class="catalog-menu-title">Tất cả sản phẩm</h3>
+					<ul class="cat-nav-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1044"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/giay-nam/">Giày nam</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1040"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/giay-nu/">Giày nữ</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1039"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/nike/">Nike</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1045"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/adidas/">Adidas</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1046"><a href="https://thinhtran-ui.github.io/thinhtran/danh-muc-san-pham/bitis/">Bitis</a></li>
+</ul>
+				 <!-- end .catalog-menu -->
+			</div> <!-- end .catalog-menu-wrap -->
+		</nav>
+</div> <!-- end .catalog-menu-box -->
+<!-- Main Slider ============================================= --> <div class="main-slider">
+<div class="layer-slider">
+<ul class="slides">
+<li>
+<div class="image-slider">
+<article class="slider-content"><div class="slider-image-content"><a href="https://thinhtran-ui.github.io/thinhtran/product/giay-the-thao-chay-bo-nike-zoom-gravity-bq3202-004/" title="Giày thể thao chạy bộ Nike zoom gravity BQ3202 004"><div class="bialty-container"><img width="550" height="550" src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L.jpg 550w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L-300x300.jpg 300w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L-150x150.jpg 150w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L-512x512.jpg 512w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L-420x420.jpg 420w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L-75x75.jpg 75w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2081245_L-100x100.jpg 100w" sizes="(max-width: 550px) 100vw, 550px"></div>
+</a></div> <!-- .slider-image-content --></article> <!-- end .slider-content -->
+</div> <!-- end .image-slider -->
+</li>
+<li>
+<div class="image-slider">
+<article class="slider-content"><div class="slider-image-content"><a href="https://thinhtran-ui.github.io/thinhtran/product/giay-the-thao-nam-nike-downshifter-10-platinum-white-royal-ci9981-001/" title="Giày thể thao nam Nike Downshifter 10 Platinum White Royal CI9981-001"><div class="bialty-container"><img width="550" height="550" src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L.jpg 550w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L-300x300.jpg 300w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L-150x150.jpg 150w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L-512x512.jpg 512w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L-420x420.jpg 420w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L-75x75.jpg 75w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/2245046_L-100x100.jpg 100w" sizes="(max-width: 550px) 100vw, 550px"></div>
+</a></div> <!-- .slider-image-content --></article> <!-- end .slider-content -->
+</div> <!-- end .image-slider -->
+</li>
+<li>
+<div class="image-slider">
+<article class="slider-content"><div class="slider-image-content"><a href="https://thinhtran-ui.github.io/thinhtran/product/giay-nike-night-gazer-nam-nau/" title="GIÀY NIKE NIGHT GAZER NAM NÂU"><div class="bialty-container"><img width="800" height="800" src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0.jpg 800w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-300x300.jpg 300w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-150x150.jpg 150w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-768x768.jpg 768w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-512x512.jpg 512w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-420x420.jpg 420w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-75x75.jpg 75w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-600x600.jpg 600w, https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/giay-nike-night-gazer-nam-nau-01-800x800_0-100x100.jpg 100w" sizes="(max-width: 800px) 100vw, 800px"></div>
+</a></div> <!-- .slider-image-content --></article> <!-- end .slider-content -->
+</div> <!-- end .image-slider -->
+</li>
+</ul>
+<!-- end .slides -->
+				</div> <!-- end .layer-slider -->
+			</div> <!-- end .main-slider -->
 	<div class="product-promotion">
 		<div class="product-promotion-wrap">
+							<div class="product-promotion-content">
+					<div class="product-promotion-img">
+						<a class="product-promotion-link" href="https://thinhtran-ui.github.io/thinhtran/product/giay-nike-air-zoom-pegasus-33-den/"><img src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/Pegasus33_banner-1-e1624974203419.jpg"></a>
 					</div>
+				</div> <!-- end .product-promotion-content -->
+								<div class="product-promotion-content">
+					<div class="product-promotion-img">
+						<a class="product-promotion-link"><img src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/8bccdcfd37524ab7d25551bf8d4dbac9-1-e1625058738665.png"></a>
+					</div>
+				</div> <!-- end .product-promotion-content -->
+								<div class="product-promotion-content">
+					<div class="product-promotion-img">
+						<a class="product-promotion-link"><img src="https://thinhtran-ui.github.io/thinhtran/wp-content/uploads/2021/06/new-year-shoes-collection-web-banner-design-with-abstract-background_352474-34.jpg"></a>
+					</div>
+				</div> <!-- end .product-promotion-content -->
+						</div>
 		<!-- end .product-promotion-wrap -->
 	</div>
 	<!-- end .product-promotion -->
 </div> <!-- end .catalog-slider-promotion-inner -->
 </div>
-</div> <!-- end .catalog-slider-promotion-wrap --></header> <!-- end #masthead -->
+</div> <!-- end .catalog-slider-promotion-wrap --> <!-- end #masthead -->
 
 <!-- Main Page Start ============================================= -->
 <div id="site-content-contain" class="site-content-contain">
@@ -232,40 +480,7 @@ img.emoji {
 	</div> <!-- #primary -->
 
 <aside id="secondary" class="widget-area" role="complementary" aria-label="Secondary">
-    <aside id="search-8" class="widget widget_search"><form class="search-form" action="https://thinhtran-ui.github.io/thinhtran/" method="get" role="search">
-		<label class="screen-reader-text">Search &hellip;</label>
-	<input type="search" name="s" class="search-field" placeholder="Search &hellip;" autocomplete="off">
-	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
-</form> <!-- end .search-form --></aside>
-		<aside id="recent-posts-5" class="widget widget_recent_entries">
-		<h2 class="widget-title">Bài viết mới</h2>
-		<ul>
-											<li>
-					<a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-									</li>
-											<li>
-					<a href="https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/">Chào tất cả mọi người!</a>
-									</li>
-					</ul>
-
-		</aside><aside id="recent-comments-6" class="widget widget_recent_comments"><h2 class="widget-title">Phản hồi gần đây</h2>
-<ul id="recentcomments">
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-16">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/khong-phan-loai/chao-moi-nguoi/#comment-12">Chào tất cả mọi người!</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-15">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link"><a href="https://thinhtran-ui.github.io/thinhtran" rel="external nofollow ugc" class="url">Trần Quốc Thịnh</a></span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-14">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-<li class="recentcomments">
-<span class="comment-author-link">tran Thinh</span> trong <a href="https://thinhtran-ui.github.io/thinhtran/smartphone-ios/tat-tan-tat-nhung-dieu-ban-can-biet-ve-galaxy-a52-4g-va-galaxy-a52-5g-bo-doi-smartphone-tam-trung-nha-samsung-co-gi/#comment-13">Tất Tần Tật: Những điều bạn cần biết về Galaxy A52 4G và Galaxy A52 5G &#8211; bộ đôi smartphone tầm trung nhà Samsung có gì?</a>
-</li>
-</ul></aside><aside id="nav_menu-5" class="widget widget_nav_menu"><h2 class="widget-title">Chuyên mục</h2></aside></aside><!-- end #secondary -->
+    </aside><!-- end #secondary -->
 </div>
 <!-- end .wrap -->
 </div>
@@ -327,23 +542,32 @@ var wc_cart_fragments_params = {"ajax_url":"\/myproject\/wordpress\/wp-admin\/ad
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/js/jquery.flexslider-min.js?ver=5.7.2" id="jquery-flexslider-js"></script>
 <script type="text/javascript" id="shoppingcart-slider-js-extra">
 /* <![CDATA[ */
-var shoppingcart_slider_value = {"shoppingcart_animation_effect":"fade","shoppingcart_slideshowSpeed":"5000","shoppingcart_animationSpeed":"700"};
+var shoppingcart_slider_value = {"shoppingcart_animation_effect":"slide","shoppingcart_slideshowSpeed":"5000","shoppingcart_animationSpeed":"700"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/js/flexslider-setting.js?ver=5.7.2" id="shoppingcart-slider-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/themes/shoppingcart/js/skip-link-focus-fix.js?ver=5.7.2" id="shoppingcart-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
+<script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.2.1" id="elementor-pro-webpack-runtime-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.5" id="elementor-webpack-runtime-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.5" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.1" id="elementor-sticky-js"></script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/thinhtran-ui.github.io\/thinhtran\/wp-admin\/admin-ajax.php","nonce":"f285fe7ab4","urls":{"assets":"https:\/\/thinhtran-ui.github.io\/thinhtran\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"menu_cart":{"cart_page_url":"https:\/\/thinhtran-ui.github.io\/thinhtran\/gio-hang\/","checkout_page_url":"https:\/\/thinhtran-ui.github.io\/thinhtran\/thanh-toan\/"},"facebook_sdk":{"lang":"vi","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/thinhtran-ui.github.io\/thinhtran\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.1" id="elementor-pro-frontend-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.2.5" id="share-link-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
 <script type="text/javascript" id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Chia sẻ trên Facebook","shareOnTwitter":"Chia sẻ trên Twitter","pinIt":"Ghim nó","download":"Tải xuống","downloadImage":"Tải hình ảnh","fullscreen":"Toàn màn hình","zoom":"Thu phóng","share":"Chia sẻ","playVideo":"Chơi Video","previous":"Previous","next":"Next","close":"Đóng"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.5","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true},"urls":{"assets":"https:\/\/thinhtran-ui.github.io\/thinhtran\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":768,"title":"%20Technology%20%E2%80%93%20Quoc%20Thinh","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Chia sẻ trên Facebook","shareOnTwitter":"Chia sẻ trên Twitter","pinIt":"Ghim nó","download":"Tải xuống","downloadImage":"Tải hình ảnh","fullscreen":"Toàn màn hình","zoom":"Thu phóng","share":"Chia sẻ","playVideo":"Chơi Video","previous":"Previous","next":"Next","close":"Đóng"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Thiết bị di động","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Máy tính bảng","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.5","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true,"form-submissions":true},"urls":{"assets":"https:\/\/thinhtran-ui.github.io\/thinhtran\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":768,"title":"%20Technology%20%E2%80%93%20Quoc%20Thinh","excerpt":"","featuredImage":false}};
 </script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.5" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.2.1" id="pro-preloaded-elements-handlers-js"></script>
 <script type="text/javascript" src="https://thinhtran-ui.github.io/thinhtran/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.5" id="preloaded-modules-js"></script>
+</div></header>
+</div>
 </body>
 </html>
